@@ -1,0 +1,19 @@
+{
+  "name": "nnpc-login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:dists/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Login"
+  },
+  "author": "iedeji",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.6"
+  }
+}

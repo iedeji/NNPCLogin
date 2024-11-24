@@ -1,0 +1,68 @@
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+
+*{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.logo{
+    height: 9rem;
+    width: 9rem;
+    margin-top: 2rem;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 480;
+    height: 2rem;
+}
+
+input,p{
+    width: 300px;
+}
+
+input{
+    height: 1.575rem;
+    display: block;
+    border: 0.75px solid #000;
+    border-radius: 1px;
+    line-height: 20px;
+}
+.btn-submit{
+    height: 2rem;
+    width: 5rem;
+    line-height: 0.25rem;
+}
+
+.text{
+    font-size: 13.25px;
+}
+
+@media only screen and (max-width: 600px) {
+    input,p{
+        width: 80%;
+        margin: auto;
+        font-size: 12px;
+    }
+
+    .logo{
+        margin-left: 10%;
+    }
+    .btn-submit{
+        height: 1.5rem;
+        width: 4rem;
+        font-size: 10px;
+        margin-left: 10%;
+    }
+
+    .text{
+       font-size: 10px; 
+    }
+}
